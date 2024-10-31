@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BeginnersToAdvanced" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/yellow</item>
+         <item name="colorPrimaryVariant">@color/yellow</item>
+         <item name="colorOnPrimary">@color/yellow</item>
+<!--         <item name="colorSurface">@color/yellow</item>-->
+        <item name="android:statusBarColor">@color/yellow</item>
+    </style>
+
+    <style name="Theme.BeginnersToAdvanced" parent="Base.Theme.BeginnersToAdvanced" />
+    
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+<!--        we add here three parameter 1st for background color 2nd for icon  3rd for main activity-->
+        <item name="windowSplashScreenBackground">@color/yellow</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/img</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.BeginnersToAdvanced</item>
+
+
+    </style>
+</resources>
