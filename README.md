@@ -1,4 +1,4 @@
-# SnapChat Splash Screen using official android API method
+# 1 SnapChat Splash Screen using official android API method
 # on main activity i write code for splash screen
 There are six steps
 1. Adding logo into the drawable folder
@@ -16,7 +16,7 @@ There are six steps
  2. App icon withiout an icon background it must be 288x288dp and fit within a circle 192dp in diameter
 
 
-# Intents in Android Studio using Kotlin
+# 2 Intents in Android Studio using Kotlin
 1. what is intent?
 2. types of intent?
 3. what is Explicit intent? (inside app)
@@ -31,3 +31,14 @@ type of intent ( 1. Explicit intent 2. implicit Intent )
 Explicit intent : Inside in App move from one activity to another
 implicit Intent : Move from our app to another app .
 
+# 3 ListView in Android Studio using Kotlin
+I have devided ListView in five step to understand easily
+
+steps: 
+        1. Create a list view in xml
+        2. Create an array and add elements
+        3. create Array adapter and set layout and pass array
+        4. set listAdapter to listview adapter
+        5. listview.setonClick 
+                create a variable selectItem = parent.getItemAtPosition(postion) as String
+                show toast message

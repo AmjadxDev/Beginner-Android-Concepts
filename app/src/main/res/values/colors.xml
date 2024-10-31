@@ -2,5 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+<!--    for splash screen-->
     <color name="yellow">#FFFFFC00</color>
+
+<!--    for list view-->
+    <color name="blue">#FF1A9DF1</color>
+
 </resources>
