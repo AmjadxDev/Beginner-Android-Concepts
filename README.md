@@ -15,4 +15,19 @@ There are six steps
  1. App icon with an icon background it must e 240x240dp and fit within a circle 160dp in diameter
  2. App icon withiout an icon background it must be 288x288dp and fit within a circle 192dp in diameter
 
- 
+
+# Intents in Android Studio using Kotlin
+1. what is intent?
+2. types of intent?
+3. what is Explicit intent? (inside app)
+4. what is implicit intent? (outside app)
+
+Intent : intent is a class which provide a communication between two activities.
+        intent also share data from one activity to another
+
+
+type of intent ( 1. Explicit intent 2. implicit Intent )
+
+Explicit intent : Inside in App move from one activity to another
+implicit Intent : Move from our app to another app .
+
