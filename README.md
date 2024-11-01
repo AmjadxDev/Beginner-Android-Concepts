@@ -83,4 +83,15 @@
         5. inside the function create a varible fragmentManager = SupportFragmentManager
         6. fragmentManager.beginTransition().replace(R.id.fragmentContainerView, fragment).commit()
 
-# 8
+# 8 ViewPager2 in Android Studio using Kotlin
+        Steps:
+        1. Add viewPager2 in xml
+        2. declair all the variables
+        3. create pager adapter
+        4. create view holder
+        5. create the list of text
+        6. adding all the three method
+        7. set the adapter
+        the Adapter class are same like recylcer ivew
+
+# 9 
