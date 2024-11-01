@@ -72,4 +72,15 @@
         5. setNegativeButton same code
         6. create variable alertDialog : AlertDialog = builder.create()
         7. alertDialog.show()
-        
+
+
+# 7 Fragment in Android Studio using Kotlin
+        Steps:
+        1. in main activity add fragmentContianerView in xml
+        2. create fragments
+        3. now to got main activity and create a function
+        4. the function pass a paramerter fagrment
+        5. inside the function create a varible fragmentManager = SupportFragmentManager
+        6. fragmentManager.beginTransition().replace(R.id.fragmentContainerView, fragment).commit()
+
+# 8

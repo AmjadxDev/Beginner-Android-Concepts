@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeginnersToAdvanced"
         tools:targetApi="31">
-
         <activity
-            android:name=".alertdialog.AlertDialogActivity"
+            android:name=".fragments.FragmentActivity"
             android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,8 +24,12 @@
         </activity>
 
         <activity
-            android:name=".spinners.SpinnerActivity"
+            android:name=".alertdialog.AlertDialogActivity"
             android:exported="false"/>
+
+        <activity
+            android:name=".spinners.SpinnerActivity"
+            android:exported="false" />
 
         <activity
             android:name=".recyclerviews.RecyclerViewActivity"
