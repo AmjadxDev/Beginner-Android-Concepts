@@ -9,4 +9,7 @@
 <!--    for list view-->
     <color name="blue">#FF1A9DF1</color>
 
+<!--    recyclerview-->
+    <color name="levender">#FF8692F7</color>
+
 </resources>

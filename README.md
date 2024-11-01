@@ -42,3 +42,13 @@ steps:
         5. listview.setonClick 
                 create a variable selectItem = parent.getItemAtPosition(postion) as String
                 show toast message
+
+# 4 RecyclerView in Android Studio using Kotlin
+        Steps:
+        1. Create a recyclerview in xml
+        2. create a layout for items 
+        3. Create a dataclass
+        4. create an adapter 
+        5. in main activity set layoutManager and setHasFixedSize(true) 
+        6. in main activity set adapter class to recyler view adapter.
+

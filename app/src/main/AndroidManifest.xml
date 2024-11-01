@@ -12,30 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeginnersToAdvanced"
         tools:targetApi="31">
+        <activity
+            android:name=".recyclerviews.RecyclerViewActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".listviews.ListViewActivity"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+            android:exported="false"/>
 
         <activity
             android:name=".intents.SecondIntentActivity"
             android:exported="false" />
-
         <activity
             android:name=".intents.FirstIntentActivity"
-            android:exported="false">
-
-        </activity>
-<!--        <activity-->
-<!--            android:name=".MainActivity"-->
-<!--            android:exported="true"-->
-<!--            android:theme="@style/Theme.App.SplashScreen"/>-->
+            android:exported="false"/>
     </application>
 
 </manifest>
