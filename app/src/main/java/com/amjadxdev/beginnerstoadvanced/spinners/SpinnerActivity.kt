@@ -35,7 +35,6 @@ class SpinnerActivity : AppCompatActivity() {
                 position: Int,
                 id: Long
             ) {
-                val itemClickName = parent?.getItemAtPosition(position)
                 Toast.makeText(this@SpinnerActivity, "You select ${parent?.getItemAtPosition(position)}", Toast.LENGTH_SHORT).show()
             }
 
