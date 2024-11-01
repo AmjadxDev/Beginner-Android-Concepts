@@ -52,3 +52,12 @@ steps:
         5. in main activity set layoutManager and setHasFixedSize(true) 
         6. in main activity set adapter class to recyler view adapter.
 
+# 5 Spinner in Android Studio using Kotlin
+        The code look like listview code
+        Steps:
+        1. First we create a list of all the item which will add in Spinner
+        2. we create an array adapter
+        3. then we set setOnItemSelectListener
+        4. last show a toast message
+
+# 
