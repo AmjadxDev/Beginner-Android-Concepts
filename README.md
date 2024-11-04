@@ -116,5 +116,14 @@
         these are the steps of navigation drawer also we do some changes on theme file
 
 
-# 10  
-        
+# 10  Bottom Navigation in Android Studio using Kotlin
+        Steps: 
+        1. create a bottom nav menu
+        2. and create a fragment container in main activity and also bottomnavView
+        3. code in main activity Steps:
+                1. first initialaize bottomNavView variable
+                2. create a fragment replace method
+                3. onItemSelectedListener
+                4. create an initial fragment
+
+# *************** Android Basics Completed *************************
