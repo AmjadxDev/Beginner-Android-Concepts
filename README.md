@@ -94,4 +94,27 @@
         7. set the adapter
         the Adapter class are same like recylcer ivew
 
-# 9 
+# 9 Navigation Drawer in Android Studio using Kotlin with fragments
+        Steps:
+        1. create menu for drawer layout
+        2. create drawer header layout
+        3. in main activity create a navigationView
+        4. navigationView.setNavigationItemSelectedListner(acitivity)
+        5. toggle = ActionBarDrawerToggle(activity, drawerlayout, toolbar, open_drawer, close_drawer)
+        6. drawerLayout.addDrawerListener(toggle)
+        7. toggle.syncState()
+        8. if(saveInstaceState == null) {
+                replaceFragement(HomeFragment())
+                navView.setCheckedItem(R.id.nav_home)
+        }
+        9. onBackPress event if(drawerLayout.isDrawerOpen(GravityCompat.START)) {drawerLayout.cloaseDrawer(GravityCompat.START)}
+        10. onNaivationItemSelected override -> in this method me set click even of drawer menu and drawer close and then return true
+        11. method replaceFragement -> transaction : FragmentTransaction = SupportFragmentManager.beginTransition()
+        transaction.replace(container, fragment)
+        transaction.commit()
+
+        these are the steps of navigation drawer also we do some changes on theme file
+
+
+# 10  
+        
